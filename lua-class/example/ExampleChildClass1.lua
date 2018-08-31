@@ -8,7 +8,7 @@ function ExampleChildClass1:ctor(...)
 end
 
 function ExampleChildClass1:Init(...)
-    self:super("Init")
+    self:super(ExampleChildClass1, "Init")
     print("ExampleChildClass1 Init!!!")
 end
 
